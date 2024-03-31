@@ -1,0 +1,93 @@
+.report-button{
+  background: rgb(234, 7, 7);
+  color: white;
+  font-size: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+  margin: 100px 0px 0px 300px;
+  transition: background-color 1s,
+     color 1s,box-shadow 1s;
+  
+ }
+
+ .report-button:hover{
+  background-color: white;
+  color: rgb(234, 7, 7);
+  box-shadow: 5px 5px 5px black;
+ }
+
+ .report-button:active{
+  opacity: 0.3;
+ }
+ .sign-button,
+ .login-button{
+    background: white;
+    display: inline-block;
+    font-size: 14px;
+    color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    transition: background-color 1s,
+    color 1s;
+  }
+
+  .sign-button:hover,
+  .login-button:hover{
+    background: blue;
+    color: white;
+  }
+
+  .sign-button:active,
+  .login-button:active{
+    opacity: 0.3;
+  }
+
+  .search-bar{
+    display: inline-block;
+    font-size: 20px;
+    
+    
+  }
+
+  .home-button,
+  .about-button,
+  .contact-button,
+  .services-button{
+    display:inline-block;
+    background: rgb(154, 153, 153);
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: background-color 1s,
+    color 1s;
+
+  }
+
+  .home-button:hover,
+  .about-button:hover,
+  .contact-button:hover,
+  .services-button:hover{
+    opacity: 0.8;
+  }
+
+  .home-button:active
+  .about-button:active,
+  .contact-button:active,
+  .services-button:active{
+    opacity: 0.5;
+  }
+
+  
+
+ 
